@@ -17,35 +17,35 @@
       "id": "2",
       "title": "project 2",
       "category": "illustration",
-      "thumbnail": "http://lorempizza.com/380/240",
+      "thumbnail": "http://lorempizza.com/380/241",
       "about": "Some description for the project 2."
     },
     {
       "id": "3",
       "title": "project 3",
       "category": "animation",
-      "thumbnail": "http://lorempizza.com/380/240",
+      "thumbnail": "http://lorempizza.com/381/240",
       "about": "Some description for the project 3."
     },
     {
       "id": "4",
       "title": "project 4",
       "category": "illustration",
-      "thumbnail": "http://lorempizza.com/380/240",
+      "thumbnail": "http://lorempizza.com/381/241",
       "about": "Some description for the project 4."
     },
     {
       "id": "5",
       "title": "project 5",
       "category": "animation",
-      "thumbnail": "http://lorempizza.com/380/240",
+      "thumbnail": "http://lorempizza.com/382/240",
       "about": "Some description for the project 5."
     },
     {
       "id": "6",
       "title": "project 6",
       "category": "storyboarding",
-      "thumbnail": "http://lorempizza.com/380/240",
+      "thumbnail": "http://lorempizza.com/380/242",
       "about": "Some description for the project 6."
     }
   ]

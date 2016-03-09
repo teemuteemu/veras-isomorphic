@@ -44,10 +44,14 @@ class Projects extends React.Component {
     })
 
     const filters = ProjectsContent.categories.map((cat) => {
+      const active = this.state.selectedFilter === cat
+        ? 'active'
+        : ''
+
       return (
-        <dd key={cat} className='filter'>
+        <li key={cat} className={active}>
           <a href='#' onClick={this.setFilter.bind(this, cat)}>{cat}</a>
-        </dd>
+        </li>
       )
     })
 
@@ -55,11 +59,12 @@ class Projects extends React.Component {
       <div className={s.root}>
         <div className={s.container}>
           <h1>{this.props.title}</h1>
-          <dl className="sub-nav">
-            <dt>Filter:</dt>
+          <ul className={s.filters}>
+            <li>Filter:</li>
             { filters }
-          </dl>
-          <ul>
+          </ul>
+
+          <ul className={s.projects}>
             {projects}
           </ul>
         </div>
