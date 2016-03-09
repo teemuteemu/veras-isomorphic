@@ -14,7 +14,7 @@ import s from './Project.scss'
 function Project ({project}) {
   return (
     <div>
-      <h2>{project.title}</h2>
+      <h1>{project.title}</h1>
       <img src={project.thumbnail} />
       <p>{project.about}</p>
     </div>

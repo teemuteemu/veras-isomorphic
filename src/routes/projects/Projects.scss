@@ -22,25 +22,43 @@
 
 .filters {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
 
   li {
     list-style-type: none;
-    padding: 0;
+    padding: 0 10px 0 10px;
     margin: 0;
+
+    a {
+      text-decoration: none;
+    }
   }
+
+  li:first-child {
+    padding-left: 0;
+  }
+
+  li:last-child {
+    padding-right: 0;
+  }
+}
+
+.active_filter {
+  background: lightgrey;
 }
 
 .projects {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
 
   li {
     box-sizing: border-box;
     list-style-type: none;
     width: 25%;
-    padding: 10px;
+    padding: 0;
     
     a {
       img {

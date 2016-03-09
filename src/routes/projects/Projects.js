@@ -45,7 +45,7 @@ class Projects extends React.Component {
 
     const filters = ProjectsContent.categories.map((cat) => {
       const active = this.state.selectedFilter === cat
-        ? 'active'
+        ? s.active_filter
         : ''
 
       return (
@@ -56,18 +56,16 @@ class Projects extends React.Component {
     })
 
     return (
-      <div className={s.root}>
-        <div className={s.container}>
-          <h1>{this.props.title}</h1>
-          <ul className={s.filters}>
-            <li>Filter:</li>
-            { filters }
-          </ul>
+      <div>
+        <h1>{this.props.title}</h1>
+        <ul className={s.filters}>
+          <li>Filter:</li>
+          { filters }
+        </ul>
 
-          <ul className={s.projects}>
-            {projects}
-          </ul>
-        </div>
+        <ul className={s.projects}>
+          {projects}
+        </ul>
       </div>
     )
   }
