@@ -40,7 +40,7 @@ class Projects extends React.Component {
         return this.state.selectedFilter === proj.category
       }
     }).map((proj) => {
-      return <ProjectItem project={proj} />
+      return <ProjectItem key={proj.id} project={proj} />
     })
 
     const filters = ProjectsContent.categories.map((cat) => {
