@@ -7,17 +7,17 @@
  * LICENSE.txt file in the root directory of this source tree.
  */
 
-import React from 'react'
+import React, { PropTypes } from 'react'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import s from './Header.scss'
 import Link from '../Link'
 import Navigation from '../Navigation'
 
-function Header () {
+function Header ({currentPath}) {
   return (
     <div className={s.root}>
       <div className={s.container}>
-        <Navigation className={s.nav} />
+        <Navigation className={s.nav} currentPath={currentPath}/>
 
         <Link className={s.brand} to='/'>
           <span className={s.brandTxt}>Vera's isomorphic</span>
@@ -25,6 +25,10 @@ function Header () {
       </div>
     </div>
   )
+}
+
+Header.propTypes = {
+  currentPath: PropTypes.string.isRequired
 }
 
 export default withStyles(Header, s)

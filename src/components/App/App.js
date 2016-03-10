@@ -22,6 +22,7 @@ class App extends Component {
       onSetMeta: PropTypes.func,
       onPageNotFound: PropTypes.func,
     }),
+    currentPath: PropTypes.string.isRequired,
     children: PropTypes.element.isRequired,
     error: PropTypes.object,
   }
@@ -55,7 +56,7 @@ class App extends Component {
   render() {
     return !this.props.error ? (
       <div>
-        <Header />
+        <Header currentPath={this.props.currentPath}/>
         <div className={s.container}>
           {this.props.children}
         </div>

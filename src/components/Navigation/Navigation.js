@@ -13,16 +13,28 @@ import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import s from './Navigation.scss'
 import Link from '../Link'
 
-function Navigation ({ className }) {
+function NavigationItem ({ path, label, currentPath }) {
+  const classes = [ s.link ]
+  if (path === currentPath) {
+    classes.push('active')
+  }
+
+  return (
+    <Link className={classes.join(' ')} to={path}>{label}</Link>
+  )
+}
+
+function Navigation ({ className, currentPath }) {
   return (
     <div className={cx(s.root, className)} role='navigation'>
-      <Link className={s.link} to='/projects'>Projects</Link>
-      <Link className={s.link} to='/contact'>Contact</Link>
+      <NavigationItem path='/projects' label='Projects' currentPath={currentPath} />
+      <NavigationItem path='/contact' label='Contact' currentPath={currentPath} />
     </div>
   )
 }
 
 Navigation.propTypes = {
+  currentPath: PropTypes.string.isRequired,
   className: PropTypes.string
 }
 
