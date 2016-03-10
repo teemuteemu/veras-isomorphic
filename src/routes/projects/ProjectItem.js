@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react'
 
-import Link from '../../components/Link'
+import Link from '../Link'
 
 function ProjectItem ({project}) {
   const url = `/project/${project.id}`

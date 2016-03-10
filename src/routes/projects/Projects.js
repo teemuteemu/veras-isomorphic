@@ -1,21 +1,12 @@
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
-import React, { PropTypes } from 'react'
+import React, { Component, PropTypes } from 'react'
 import withStyles from 'isomorphic-style-loader/lib/withStyles'
 import s from './Projects.scss'
 
 import ProjectsContent from '../../content/projects.json'
 
-import ProjectItem from './ProjectItem'
+import ProjectItem from '../../components/ProjectItem/ProjectItem.js'
 
-class Projects extends React.Component {
+class Projects extends Component {
   constructor () {
     super()
 

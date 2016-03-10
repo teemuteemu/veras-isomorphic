@@ -1,0 +1,52 @@
+
+$fadeSpeed: 300ms;
+
+.project_item {
+  position: relative;
+  list-style-type: none;
+  padding: 0;
+
+  @media only screen and (max-width: 479px) {
+    height: 220px;
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 767px){
+    height: 180px;
+    width: 50%;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    height: 140px;
+    width: 25%;
+  }
+
+  @media only screen and (min-width: 992px) {
+    height: 120px;
+    width: 16.66%;
+  }
+
+  a {
+    position: absolute;
+    width: 98%;
+    height: 98%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0);
+    opacity: 0.8;
+    transition: color $fadeSpeed, opacity $fadeSpeed;
+
+    &:hover {
+      color: white;
+      opacity: 1;
+    }
+  }
+}
