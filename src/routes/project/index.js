@@ -19,9 +19,12 @@ export const action = async (state) => {
   const project = ProjectsContent.projects.filter((proj) => {
     return proj.id === id
   })[0]
+  const relatedProjects = ProjectsContent.projects.filter((proj) => {
+    return proj.id !== project.id && proj.category === project.category
+  })
 
   if (project) {
     state.context.onSetTitle(project.title);
-    return <Project project={project} />;
+    return <Project project={project} relatedProjects={relatedProjects} />;
   }
 };

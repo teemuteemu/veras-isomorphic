@@ -28,7 +28,7 @@ function Projects({category}) {
 
 Projects.propTypes = {
   title: PropTypes.string.isRequired,
-  category: PropTypes.object
+  category: PropTypes.string
 }
 
 export default withStyles(Projects, s)

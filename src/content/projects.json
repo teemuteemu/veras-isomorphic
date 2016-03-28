@@ -58,6 +58,27 @@
       "category": "storyboarding",
       "thumbnail": "http://placekitten.com/380/242",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
+    },
+    {
+      "id": "7",
+      "title": "Project 7",
+      "category": "objects",
+      "thumbnail": "http://placekitten.com/381/241",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
+    },
+    {
+      "id": "8",
+      "title": "Project 8",
+      "category": "objects",
+      "thumbnail": "http://placekitten.com/381/241",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
+    },
+    {
+      "id": "9",
+      "title": "Project 9",
+      "category": "comics",
+      "thumbnail": "http://placekitten.com/381/241",
+      "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
     }
   ]
 }
