@@ -22,7 +22,11 @@
 }
 
 .menu_item {
+  list-style: none;
+}
 
+.active_menu_item {
+  background: red;
 }
 
 .content_container {

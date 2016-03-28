@@ -58,7 +58,7 @@ class App extends Component {
     return !this.props.error ? (
       <div>
         <Header />
-        <MenuBar>
+        <MenuBar currentPath={this.props.currentPath}>
           {this.props.children}
         </MenuBar>
       </div>

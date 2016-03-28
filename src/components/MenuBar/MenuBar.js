@@ -19,8 +19,17 @@ import ProjectsContent from '../../content/projects.json'
 function MenuBarItem ({category, active}) {
   const href=`/${category}`
 
+  const activeClass = active === true
+    ? s.active_menu_item
+    : ''
+
+  const classNames = [
+    s.menu_item,
+    activeClass
+  ].join(' ')
+
   return (
-    <li key={category} className={s.menu_item}>
+    <li key={category} className={classNames}>
       <Link to={href} >{category}</Link>
     </li>
   )
@@ -44,18 +53,33 @@ class MenuBar extends React.Component {
   }
 
   render () {
-    const menuBarElements = ProjectsContent.categories.map((cat) => <MenuBarItem key={cat} category={cat} active={false} />)
+    const currentPath = this.props.currentPath
+    const menuBarElements = ProjectsContent.categories.map((cat) => {
+      const active = currentPath === `/${cat}`
+      return (
+        <MenuBarItem key={cat} category={cat} active={active} />
+      )
+    })
    
     const contactMenu = this.state.contactMenuOpen === true
       ? (<ContactMenu />)
       : undefined
+
+    const contactMenuActive = this.state.contactMenuOpen === true
+      ? s.active_menu_item
+      : undefined
+
+    const contactMenuClassNames = [
+      s.menu_item,
+      contactMenuActive
+    ].join(' ')
 
     return (
       <div className={s.root}>
         <ul className={s.menu_container}>
           {menuBarElements}
 
-          <li className={s.menu_item}>
+          <li className={contactMenuClassNames}>
             <a href='#' onClick={this.toggleContact.bind(this)}>contact</a>
           </li>
         </ul>
