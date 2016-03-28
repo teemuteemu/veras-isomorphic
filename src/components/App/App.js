@@ -58,10 +58,9 @@ class App extends Component {
     return !this.props.error ? (
       <div>
         <Header />
-        <MenuBar />
-        <div className={s.container}>
+        <MenuBar>
           {this.props.children}
-        </div>
+        </MenuBar>
       </div>
     ) : this.props.children
   }

@@ -11,43 +11,43 @@
       "id": "1",
       "title": "Project 1",
       "category": "illustration",
-      "thumbnail": "http://lorempizza.com/380/240",
+      "thumbnail": "http://placekitten.com/380/240",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
     },
     {
       "id": "2",
       "title": "Project 2",
       "category": "illustration",
-      "thumbnail": "http://lorempizza.com/380/241",
+      "thumbnail": "http://placekitten.com/380/241",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
     },
     {
       "id": "3",
       "title": "Project 3",
       "category": "animation",
-      "thumbnail": "http://lorempizza.com/381/240",
+      "thumbnail": "http://placekitten.com/381/240",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
     },
     {
       "id": "4",
       "title": "Project 4",
       "category": "illustration",
-      "thumbnail": "http://lorempizza.com/381/241",
+      "thumbnail": "http://placekitten.com/381/241",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
     },
     {
       "id": "5",
       "title": "Project 5",
       "category": "animation",
-      "thumbnail": "http://lorempizza.com/382/240",
+      "thumbnail": "http://placekitten.com/382/240",
       "images": [
         {
           "caption": "pizza 1",
-          "url": "http://lorempizza.com/380/240"
+          "url": "http://placekitten.com/380/240"
         },
         {
           "caption": "pizza 2",
-          "url": "http://lorempizza.com/380/241"
+          "url": "http://placekitten.com/380/241"
         }
       ],
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
@@ -56,7 +56,7 @@
       "id": "6",
       "title": "Project 6",
       "category": "storyboarding",
-      "thumbnail": "http://lorempizza.com/380/242",
+      "thumbnail": "http://placekitten.com/380/242",
       "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor pulvinar enim, at luctus odio dapibus mattis. Nunc at nisl feugiat libero scelerisque mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus pulvinar rhoncus odio a efficitur. Mauris ut dolor sit amet dui varius dignissim. Sed convallis, eros ut placerat luctus, tortor elit hendrerit nisi, ut molestie enim sem at erat. Integer nec ligula in nisl interdum sollicitudin nec vitae nunc. Maecenas non rutrum ante. Suspendisse potenti. Vestibulum a lorem id tellus eleifend blandit quis eget leo. Nunc tincidunt venenatis arcu, ut tincidunt felis gravida sed."
     }
   ]

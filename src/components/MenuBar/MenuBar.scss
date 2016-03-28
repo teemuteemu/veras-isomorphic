@@ -10,43 +10,31 @@
 @import '../variables.scss';
 
 .root {
-  background: #333;
-  color: #fff;
 }
 
-.container {
+.menu_container {
   margin: 0 auto;
   padding: 20px 15px;
   max-width: $max-content-width;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.text {
-  color: rgba(255, 255, 255, .5);
+.menu_item {
+
 }
 
-.textMuted {
-  composes: text;
-  color: rgba(255, 255, 255, .3);
+.content_container {
+  display: flex;
+  flex-direction: row;
 }
 
-.spacer {
-  color: rgba(255, 255, 255, .3);
+.page_container {
+  display: flex;
+  flex: 1 1 100%;
 }
 
-.text,
-.link {
-  padding: 2px 5px;
-  font-size: 1em;
-}
-
-.link,
-.link:active,
-.link:visited {
-  color: rgba(255, 255, 255, .6);
-  text-decoration: none;
-}
-
-.link:hover {
-  color: rgba(255, 255, 255, 1);
+.right_menu_container {
+  display: flex;
 }
