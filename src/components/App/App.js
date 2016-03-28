@@ -11,6 +11,7 @@ import React, { Component, PropTypes } from 'react'
 import emptyFunction from 'fbjs/lib/emptyFunction'
 import s from './App.scss'
 import Header from '../Header'
+import MenuBar from '../MenuBar'
 import Footer from '../Footer'
 
 class App extends Component {
@@ -56,7 +57,8 @@ class App extends Component {
   render() {
     return !this.props.error ? (
       <div>
-        <Header currentPath={this.props.currentPath}/>
+        <Header />
+        <MenuBar />
         <div className={s.container}>
           {this.props.children}
         </div>

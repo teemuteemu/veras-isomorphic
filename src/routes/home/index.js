@@ -10,9 +10,9 @@
 import React from 'react'
 import Projects from '../projects/Projects'
 
-export const path = '/'
+export const path = '/:category?'
 export const action = async (state) => {
   const title = 'Projects'
   state.context.onSetTitle(title)
-  return <Projects title={title} />
+  return <Projects title={title} category={state.params.category} />
 }

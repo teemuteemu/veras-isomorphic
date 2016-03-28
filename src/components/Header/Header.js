@@ -13,14 +13,12 @@ import s from './Header.scss'
 import Link from '../Link'
 import Navigation from '../Navigation'
 
-function Header ({currentPath}) {
+function Header () {
   return (
     <div className={s.root}>
       <div className={s.container}>
-        <Navigation className={s.nav} currentPath={currentPath}/>
-
         <Link className={s.brand} to='/'>
-          <span className={s.brandTxt}>Vera's isomorphic</span>
+          <span className={s.brandTxt}>Veronica Solomon</span>
         </Link>
       </div>
     </div>
@@ -28,7 +26,6 @@ function Header ({currentPath}) {
 }
 
 Header.propTypes = {
-  currentPath: PropTypes.string.isRequired
 }
 
 export default withStyles(Header, s)

@@ -7,11 +7,11 @@ import ProjectsContent from '../../content/projects.json'
 import ProjectItem from '../../components/ProjectItem/ProjectItem.js'
 
 class Projects extends Component {
-  constructor () {
+  constructor (props) {
     super()
 
     this.state = {
-      selectedFilter: ProjectsContent.categories[0]
+      selectedFilter: props.category
     }
   }
 
@@ -25,17 +25,17 @@ class Projects extends Component {
 
   render () {
     const projects = ProjectsContent.projects.filter((proj) => {
-      if (this.state.selectedFilter === 'all') {
+      if (this.props.category === undefined) {
         return true
       } else {
-        return this.state.selectedFilter === proj.category
+        return this.props.category === proj.category
       }
     }).map((proj) => {
       return <ProjectItem key={proj.id} project={proj} />
     })
 
     const filters = ProjectsContent.categories.map((cat) => {
-      const active = this.state.selectedFilter === cat
+      const active = this.props.category === cat
         ? s.active_filter
         : ''
 
@@ -48,12 +48,6 @@ class Projects extends Component {
 
     return (
       <div>
-        <h1>{this.props.title}</h1>
-        <ul className={s.filters}>
-          <li>Filter:</li>
-          { filters }
-        </ul>
-
         <ul className={s.projects}>
           {projects}
         </ul>
@@ -63,7 +57,8 @@ class Projects extends Component {
 }
 
 Projects.propTypes = {
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  category: PropTypes.object
 }
 
 export default withStyles(Projects, s)
