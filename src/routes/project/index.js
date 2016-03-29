@@ -8,7 +8,9 @@
  */
 
 import React from 'react';
+
 import Project from './Project';
+import NotFoundPage from '../../components/NotFoundPage'
 
 import ProjectsContent from '../../content/projects.json'
 
@@ -19,12 +21,15 @@ export const action = async (state) => {
   const project = ProjectsContent.projects.filter((proj) => {
     return proj.id === id
   })[0]
-  const relatedProjects = ProjectsContent.projects.filter((proj) => {
-    return proj.id !== project.id && proj.category === project.category
-  })
 
   if (project) {
+    const relatedProjects = ProjectsContent.projects.filter((proj) => {
+      return proj.id !== project.id && proj.category === project.category
+    })
+
     state.context.onSetTitle(project.title);
     return <Project project={project} relatedProjects={relatedProjects} />;
+  } else {
+    return <NotFoundPage />
   }
 };

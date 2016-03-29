@@ -24,7 +24,7 @@ function MoreProjects({category, projects}) {
     <div className={s.root}>
       <div className={s.container}>
         <h3>More {categoryLabel}</h3>
-        <ul>
+        <ul className={s.project_list}>
           {projectItemElements}
         </ul>
       </div>

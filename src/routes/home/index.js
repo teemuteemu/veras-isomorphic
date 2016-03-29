@@ -8,7 +8,8 @@
  */
 
 import React from 'react'
-import Projects from '../projects/Projects'
+
+import Projects from '../../components/Projects'
 
 export const path = '/:category?'
 export const action = async (state) => {
