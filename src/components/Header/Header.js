@@ -13,12 +13,16 @@ import s from './Header.scss'
 import Link from '../Link'
 import Navigation from '../Navigation'
 
+import ProjectsContent from '../../content/projects.json'
+
 function Header () {
+  const siteTitle = ProjectsContent.title
+
   return (
     <div className={s.root}>
       <div className={s.container}>
         <Link className={s.brand} to='/'>
-          <span className={s.brandTxt}>Veronica Solomon</span>
+          <span className={s.brandTxt}>{siteTitle}</span>
         </Link>
       </div>
     </div>
