@@ -16,7 +16,7 @@ function ContactMenu() {
   return (
     <div className={s.root}>
       <div className={s.container}>
-        <h3>Contact</h3>
+        <h2>Contact</h2>
         <p>Here comes some contact information</p>
       </div>
     </div>

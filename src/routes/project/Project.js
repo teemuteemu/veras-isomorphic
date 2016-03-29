@@ -17,7 +17,7 @@ function Project ({project, relatedProjects}) {
 
   return (
     <div>
-      <h1>{project.title}</h1>
+      <h2>{project.title}</h2>
       <img src={project.thumbnail} />
       <p>{project.about}</p>
       {relatedProjects.length > 0
